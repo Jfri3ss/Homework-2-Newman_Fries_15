@@ -50,11 +50,6 @@ string get_slice_of_5(const string & primes, const int index)
 }
 
 
-
-
-
-
-
 // Function that checks whether n is prime or not
 
 int isPrimeNumber(int n) {
@@ -63,6 +58,8 @@ int isPrimeNumber(int n) {
    for(int i = 2; i <= n/2; i++) {
       if (n%i == 0)
       {
+         //Convert Int to String
+         auto n = std::to_string(42);
          isPrime = false;
          break;
       }
@@ -80,11 +77,6 @@ int main(int argc, char *argv[]){
 int isPrimeNumber(int);
 
 
-    //Convert int to String
-    auto s = std::to_string(42);
-    cout<<s<<endl;
-
-
    bool isPrime;
    int count;
    cout<<"Enter the value of n:";
@@ -95,7 +87,8 @@ int isPrimeNumber(int);
        isPrime = isPrimeNumber(n);
 
        if(isPrime == true)
-          cout<<n<<" ";
+       cout<<n<<" ";
+
    }
    return 0;
 
