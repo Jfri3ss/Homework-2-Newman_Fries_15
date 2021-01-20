@@ -24,7 +24,7 @@ bool isPrime;
         get_slice_of_5 = get_slice_of_5 + concat_primes[start+count];
         count++;
     }
-    cout<<get_slice_of_5<<endl;
+    cout<<"Your prime number is: "<<get_slice_of_5<<endl;
 }
 int isPrimeNumber(int n) {
    bool isPrime = true;
