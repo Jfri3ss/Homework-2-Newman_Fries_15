@@ -1,3 +1,4 @@
+//By Jermeiah Fries and William Newman
 #include<iostream>
 #include<string>
 #include<assert.h>
@@ -23,7 +24,7 @@ bool isPrime;
         get_slice_of_5 = get_slice_of_5 + concat_primes[start+count];
         count++;
     }
-    cout<<get_slice_of_5;
+    cout<<get_slice_of_5<<endl;
 }
 int isPrimeNumber(int n) {
    bool isPrime = true;
@@ -34,10 +35,6 @@ int isPrimeNumber(int n) {
       }
    }
    return isPrime;
-        //concat_primes = get_concatenated_primes();
-        //assert(get_slice_of_5(concat_primes, 3) == "71113");
-        //cout<<"Unit Test 1 passed\n";
-        //assert(get_slice_of_5(concat_primes, 6) == "13171");
-        //cout<<"Unit Test 2 passed\n";
+
     return 0;
 }
