@@ -15,4 +15,4 @@
 /** a global variable documentation example */
 int globalvar = 0;
 
-#endif 
+#endif
