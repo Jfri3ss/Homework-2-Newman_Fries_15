@@ -2,9 +2,6 @@
 @mainpage COP 3330 Project 2
 @Jermeiah Fries and William Newman
 
-As a quick disclaimer, I made most of the commits to Github because William was having issues making commits on his end.
-we did this to save time and still shared the work equally, William contribuited much of the code.
-
 We each took turns solving the coding puzzle and fixing compiling errors. We cleaned up our code, made it more human-readable and organized.
 Our program calculated every prime number up to 1000 then converts that integer into a string.
 The program then concatenates five numbers together based on the value of the start integer.
